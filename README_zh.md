@@ -1,4 +1,4 @@
-# Paper-SQL
+# Paper-SQL MCP工具
 
 <p align="center">
   <img src="./logo.png" alt="Paper-SQL logo" width="160" />
