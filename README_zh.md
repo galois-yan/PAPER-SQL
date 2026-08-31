@@ -8,10 +8,6 @@
 >
 > English documentation：[README.md](./README.md)
 
-
-
-这是一个基于 [OpenAlex](https://openalex.org) 的学术文献 MCP 服务器，用于检索、整理和分析论文。它支持关键词检索、语义检索、本地持久化文献库、向量相似度查询、BibTeX 导出、开放获取 PDF 下载和引文网络分析。服务器通过 stdio 通信，可接入 Claude Code、Codex、Kimi Code、OpenCode、Cherry Studio、DeepSeek Harness 等 MCP 客户端。
-
 ## 功能概览
 
 从「检索 → 入库 → 精读 → 综述」全流程，把论文发现做得更准、更可靠、更深入：
@@ -21,6 +17,12 @@
 - **多尺度论文分析：标题、关键词、摘要到 PDF 全文。** 既能按标题/关键词/摘要快速过滤，也能按需下载开放获取 PDF、抽取正文全文，支撑深度阅读与逐句取证。
 - **引文网络知识图谱，前后追溯检索。** 对选定论文构建引文图，用 PageRank、中心性和社区发现分析，一句话前后追溯参考文献与施引文献。
 - **BibTeX 导出 + LaTeX 综述报告。** 一键导出标准 BibTeX，并配合内置综述提示词，让外层模型基于真实文献生成带 `\cite` 引用的 LaTeX 文献调研报告。
+
+## 演示视频
+
+【Paper-SQL】用MCP让智能体查真文献：检索→本地入库→引证分析→PDF下载精读→综述生成 全流程演示
+
+https://www.bilibili.com/video/BV1Vntt66Ejc/?share_source=copy_web&vd_source=601c92cd729f5d300329945382cb791f
 
 ## 设计概要
 

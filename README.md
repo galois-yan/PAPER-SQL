@@ -21,6 +21,12 @@ An [OpenAlex](https://openalex.org)-based MCP server for discovering, organizing
 - Download open-access PDFs on explicit request.
 - Analyze and visualize citation networks with PageRank, centrality, and communities; large graphs use adaptive approximate centrality and heuristic community detection.
 
+## Demo video
+
+[Paper-SQL] Using MCP to let agents search real literature: full workflow demo — search → local ingestion → citation analysis → PDF download for close reading → survey generation
+
+https://www.bilibili.com/video/BV1Vntt66Ejc/?share_source=copy_web&vd_source=601c92cd729f5d300329945382cb791f
+
 ## Design overview
 
 1. **Search is ingestion.** Every remote result is written to the local SQLite library. Repeating a search refreshes records instead of creating duplicates.
