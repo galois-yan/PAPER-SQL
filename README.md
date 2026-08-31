@@ -1,4 +1,4 @@
-# openalex-mcp
+# Paper-SQL MCP Server
 
 <p align="center">
   <img src="./logo.png" alt="Paper-SQL logo" width="160" />
