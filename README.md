@@ -355,3 +355,12 @@ The default directory tree is:
 ├── pdfs/         # Downloaded open-access PDFs
 └── graphs/       # Citation-network HTML files
 ```
+
+## Contact
+
+- Dr. Yinzhong Yan · School of Civil Aviation, Northwestern Polytechnical University
+- Email: <yinzhong.yan@nwpu.edu.cn>
+
+## Acknowledgments
+
+Special thanks to my two students **Linze Li** and **Yaoxuan Shi**, who have collaborated with me since last year on researching and learning agent development technologies.
